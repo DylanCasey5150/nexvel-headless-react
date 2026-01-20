@@ -110,3 +110,14 @@ Ensure the WordPress site URL in `src/config.js` matches your local WordPress do
 
 
 > Note: WordPress runs locally as a headless CMS and is not included in this repository. Content is modeled using Custom Post Types and Advanced Custom Fields and exposed via the WordPress REST API.
+
+### WordPress (Headless CMS)
+
+WordPress is used as a **headless CMS** for this project and runs locally.  
+It is **not included in this repository**.
+
+Content is modeled using:
+- Custom Post Types (Services)
+- Advanced Custom Fields (ACF)
+
+The React front end consumes this content via the WordPress REST API.
