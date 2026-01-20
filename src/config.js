@@ -1,0 +1,1 @@
+export const WP_BASE = "http://nexvel-headless.local";
